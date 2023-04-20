@@ -1,0 +1,16 @@
+#terraform files to ignore
+
+**/.terraform/*
+
+#state files
+*.tfstate
+*.tfstate.*
+
+#crash log files
+*.log
+
+#sensitive data
+# *.tfvars
+
+#lock files
+*.lock.hcl
